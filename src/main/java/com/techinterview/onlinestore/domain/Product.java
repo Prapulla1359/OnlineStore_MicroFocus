@@ -40,8 +40,8 @@ public abstract class Product {
     }
 
     /**
-     * Overriden method to return the product object values.
-     * @return product object values seperated by ","
+     * Overriden method to return the product name and it's GUID seperated by delimiter ",".
+     * @return product name and values seperated by ","
      */
     @Override
     public String toString(){

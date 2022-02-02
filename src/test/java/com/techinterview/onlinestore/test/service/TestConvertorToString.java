@@ -46,10 +46,10 @@ public class TestConvertorToString {
 
     @Test
     public void should_successWithValidProducts(){
-        String expectedBackpackDescription = "Cool Backpack (111-222-333)," +
-                "maxContentWeight:15.0,color:Black,capacity:20.0\n";
-        String expectedSmartphoneDescription = "Motorola (222-333-555)," +
-                "manufacturer:Motorola,color:grey,numberOfCPUs:1,ramSize:64.0,screenResolution:large";
+        String expectedBackpackDescription = "Cool Backpack (111-222-333), " +
+                "maxContentWeight: 15.0, color: Black, capacity: 20.0\n";
+        String expectedSmartphoneDescription = "Motorola (222-333-555), " +
+                "manufacturer: Motorola, color: grey, numberOfCPUs: 1, ramSize: 64.0, screenResolution: large";
 
         String output = convertorToString.convert(productList);
         Assertions.assertEquals(output, expectedBackpackDescription.concat(expectedSmartphoneDescription));

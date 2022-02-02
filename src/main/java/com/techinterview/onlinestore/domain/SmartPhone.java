@@ -84,13 +84,13 @@ public class SmartPhone extends Product {
     }
 
     /**
-     * Overriden method to return the smartphone object values.
-     * @return product object values seperated by ","
+     * Overriden method to return the smartphone attribute name and values in string foramt.
+     * @return product attributes separated by ","
      */
     @Override
     public String toString(){
-        return "manufacturer:" + this.manufacturer + "," + "color:" + this.color
-                + "," + "numberOfCPUs:" + this.numberOfCPUs + "," + "ramSize:" + this.ramSize
-                + "," + "screenResolution:" + this.screenResolution;
+        return " " + "manufacturer: " + this.manufacturer + "," + " " + "color: " + this.color
+                + ","  + " " + "numberOfCPUs: " + this.numberOfCPUs + ","  + " " + "ramSize: " + this.ramSize
+                + ","  + " " + "screenResolution: " + this.screenResolution;
     }
 }

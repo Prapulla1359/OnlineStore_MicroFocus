@@ -42,7 +42,7 @@ public class App {
         smartPhone.setRamSize(64);
         smartPhone.setScreenResolution("large");
 
-        /**
+         /**
          * List of Products : Product, smartPhone
          */
         List<Product> productList = new ArrayList<>();

@@ -58,12 +58,12 @@ public class BackPack extends Product {
     }
 
     /**
-     * Overriden method to return the backpack object values.
-     * @return backpack object values seperated by ","
+     * Overriden method to return the backpack attribute name and values in string format.
+     * @return backpack attributes separated by ","
      */
     @Override
     public String toString(){
-        return "maxContentWeight:" + this.maxContentWeight + "," + "color:" + this.color
-                + "," + "capacity:" + this.capacity;
+        return " " + "maxContentWeight: " + this.maxContentWeight + ","  + " " + "color: " + this.color
+                + ","  + " " + "capacity: " + this.capacity;
     }
 }
