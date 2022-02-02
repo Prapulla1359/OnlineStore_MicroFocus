@@ -49,10 +49,18 @@ public class BackPack extends Product {
         this.capacity = capacity;
     }
 
+    /**
+     * Method to return the class type name.
+     * @return String that holds the simple name of the underlying class BackPack.
+     */
     public String classType(){
         return BackPack.class.getSimpleName();
     }
 
+    /**
+     * Overriden method to return the backpack object values.
+     * @return backpack object values seperated by ","
+     */
     @Override
     public String toString(){
         return "maxContentWeight:" + this.maxContentWeight + "," + "color:" + this.color

@@ -49,14 +49,24 @@ import java.util.List;
  */
 public class ProductListProcessor {
 
+    /**
+     * Injecting Converter interface here
+     */
     private Converter converter;
 
+    /**
+     * Setter method to set Converter
+     * @param converter
+     */
     public void setConverter(Converter converter) {
         this.converter = converter;
     }
 
     /**
-     * Make String representation of providd product list.
+     * Make String representation of provided product list.
+     *
+     * If Product list size is more than zero, invoking in
+     *
      * @param products list of the products that needs to be converted to String
      * @return String representation of the provided list.
      */

@@ -31,10 +31,18 @@ public abstract class Product {
         return name;
     }
 
+    /**
+     * Method to return the class type name.
+     * @return String that holds the simple name of the underlying class Product.
+     */
     public String classType(){
         return Product.class.getSimpleName();
     }
 
+    /**
+     * Overriden method to return the product object values.
+     * @return product object values seperated by ","
+     */
     @Override
     public String toString(){
         return new StringJoiner(",",

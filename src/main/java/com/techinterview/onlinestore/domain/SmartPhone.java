@@ -75,10 +75,18 @@ public class SmartPhone extends Product {
         this.screenResolution = screenResolution;
     }
 
+    /**
+     * Method to return the class type name.
+     * @return String that holds the simple name of the underlying class SmartPhone.
+     */
     public String classType(){
         return SmartPhone.class.getSimpleName();
     }
 
+    /**
+     * Overriden method to return the smartphone object values.
+     * @return product object values seperated by ","
+     */
     @Override
     public String toString(){
         return "manufacturer:" + this.manufacturer + "," + "color:" + this.color
