@@ -55,7 +55,7 @@ public class ProductListProcessor {
     private Converter converter;
 
     /**
-     * Setter method to set Converter
+     * Setter method to set the Converter
      * @param converter
      */
     public void setConverter(Converter converter) {
